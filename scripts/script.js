@@ -4,9 +4,9 @@ window.alert(`Are you ready to rumble!!!!??`);
 // prompts user for an input & caches the user input 
 /* aside: notice "window" object isn't in the front this time b/c 
    by default everything in JS is already encompassed in "windows" */
-let input = prompt(`Pick a number or month`, `YEP YEP`); 
+let input = prompt(`Pick a number or month`); // `YEP YEP`); 
 // `YEP YEP` would show as default input & here it would automatically give away answer ...
-// Not quite optimized yet 
+
 
 /* OH! The resulting type from window.prompt() will be a string so below will runs forever
 unless casted to Number, then try-catch block wouldn't be necessary */
