@@ -1,0 +1,21 @@
+<!-- Build HTML boilerplate  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- These two establish link to the stylesheet for DOM manipulation later (after BOM done) -->
+    <link rel="stylesheet" href="./styles/styles.css">
+    <!-- "defer" keyword allows everything else to run first before executing the js file -->
+    <script defer src="./scripts/script.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Y'all winning son? <span id="name"></span></h1>
+    <!-- other than that everything else should be in the script.js folder -->
+    <!-- typically having the script src tag here also works -->
+    <!-- <script src="src/index.js"></script> -->
+</body>
+</html>
